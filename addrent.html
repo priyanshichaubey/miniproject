@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Charter services|myrentservice.com</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="custom.css">
+	
+</head>
+<style>
+	body{
+		background-image:url(img/device.jpg); 
+		background-repeat: no-repeat;
+		background-size:100% 900px;
+	}
+	h1{
+		color:white;
+		text-align: center;
+		font-style: italic;
+		padding: 20px;
+	}
+	h2{
+		color:white;
+		text-align: center;
+		font-style: italic;
+	}
+	label{
+		color:white;
+		font-size: 20px;
+		font-style: italic;
+	}
+	#ch{
+		color:white;
+		font-size: 20px;
+		font-style: italic;
+	}
+	.reg{
+		width:40%;
+		margin: auto;
+		background-color:rgb(0,0,0,0.4); 
+		padding: 10px;
+
+	}
+	#reg{
+		width:60%;
+		margin: auto;
+
+	}
+	#name{
+		width: 300px;
+		outline: 0;
+		padding: 5px;
+		border: 3px #9fabb6;
+		border-radius: 3px;
+	}
+	#sub{
+		width: 300px;
+		outline: 0;
+		padding: 5px;
+		border: 3px #9fabb6;
+		color: white;
+		font-size:18px;
+		font-style: italic;
+		background-color: #487948;
+	}
+	#file{
+		width: 300px;
+		outline: 0;
+		padding: 5px;
+		border: 3px #9fabb6;
+		color: white;
+		font-size:18px;
+		font-style: italic;
+	}
+	
+
+</style>
+<body>
+	<h1>Registration Form</h1>
+	<div class="reg">
+		<form id="reg" method="post" action="..php">
+			<h2>Register Here</h2>
+			<label>First Name:</label>
+			<input type="text" name="name" placeholder="First name" id="name"><br><br>
+			<label>Last Name:</label>
+			<input type="text" name="name" placeholder="Last name" id="name"><br><br>
+			<label>Email:</label>
+			<input type="email" name="email" placeholder="Enter your email id" id="name"><br><br>
+			<label>Password:</label>
+			<input type="Password" name="pass" placeholder="Enter your Password" id="name"><br><br>
+			<label>Re-Enter Password:</label>
+			<input type="Password" name="pass" placeholder="Re-enter your password" id="name"><br><br>
+			<label>Address:</label>
+			<input type="text" name="Address" placeholder="Enter your Address" id="name"><br><br>
+			<label>Upload images:</label>
+			<input type="File" id="file" multiple="multiple"><br><br>
+			<input type="checkbox" id="ch"><span id="ch">I agree all Terms and Conditions.</span><br><br>
+			<button type="submit" id="sub">Register Here</button>
+
+		</form>
+	</div>
+</body>
